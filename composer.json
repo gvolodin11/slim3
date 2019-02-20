@@ -1,0 +1,33 @@
+{
+  "platform": {
+    "php": "7.1.16"
+  },
+  "require": {
+    "slim/slim": "3.*",
+    "twig/twig": "^2.0",
+    "slim/twig-view": "^2.4",
+    "symfony/console": "^4",
+    "doctrine/common": "^2.9",
+    "doctrine/dbal": "^2.6",
+    "doctrine/orm": "^2.6",
+    "respect/validation": "^1.1",
+    "slim/csrf": "^0.8.3",
+    "slim/flash": "^0.2.0",
+    "illuminate/translation": "^5.3",
+    "phpmailer/phpmailer": "^5.2",
+    "components/bootstrap-datetimepicker": "^2.4",
+    "umpirsky/twig-php-function": "^0.2.0",
+    "googleads/googleads-php-lib": "^33.0",
+    "facebook/graph-sdk": "^5.6",
+    "smsapi/php-client": "^1.8",
+    "vlucas/phpdotenv": "^2.4",
+    "guzzlehttp/guzzle": "^6.3",
+    "pagerfanta/pagerfanta": "1.*",
+    "doctrine/migrations": "^1.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  }
+}
